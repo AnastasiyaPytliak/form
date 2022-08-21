@@ -113,9 +113,14 @@ input:nth-of-type(2) {
 
 .form-field__comment {
     min-height: 50px;
-    max-height: 70px;
-    padding: 20px 0 0;
     max-width: 324px;
+    resize: none;
+    transition: ease-in-out, min-height 1s ease-in-out;
+}
+
+.form-field__comment:focus {
+    min-height: 70px;
+    
 }
 
 .form-btn {

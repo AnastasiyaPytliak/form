@@ -27,6 +27,8 @@ body {
     display: flex;
     justify-content: center;
     background-image: url('/image/substrate.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 180px;
     height: 560px;
     position: relative;

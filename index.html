@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <section class="form">
+        <div class="wrapper">
+            <div class="image">
+                <img class="back-image" src="/image/flowers.png" alt="">
+            </div>
+            <div class="form-content">
+                <form class="form-info">
+                    <p class="form-question">
+                        Не нашли что искали? Оставьте заявку и мы разработаем программу специально для вас!
+                    </p>
+                    <input class="form-field" type="text" name="username" placeholder="Имя*" maxlength="10">
+                    <input class="form-field" type="tel" name="phone" placeholder="Телефон*" maxlength="10" pattern="\+?[0-9\s\-\(\)]+">
+                    <input class="form-field" type="email" name="email" placeholder="Email" maxlength="20">
+                    <textarea class="form-field form-field__comment" type="textarea" name="comment" placeholder="Комментарий"></textarea>
+                    <input class="form-btn" type="submit" name="submit" value="Отправить">
+                </form>
+                <img class="form-image" src="/image/paint.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
